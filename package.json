@@ -11,6 +11,8 @@
   },
   "dependencies": {
     "@astrojs/check": "^0.3.4",
+    "@fontsource-variable/roboto-serif": "^5.0.9",
+    "@fontsource/atkinson-hyperlegible": "^5.0.18",
     "astro": "^4.0.9",
     "typescript": "^5.3.3"
   }
