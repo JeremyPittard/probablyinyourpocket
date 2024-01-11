@@ -14,10 +14,8 @@ main {
 svg {
   display: block;
   margin: 0 auto;
-}
-
-svg {
   fill: currentColor;
+  max-width: 100%;
 }
 
 .heading,
