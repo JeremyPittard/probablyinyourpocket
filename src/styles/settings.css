@@ -8,6 +8,8 @@
 
   /* fonts */
   --base-font-size: 18px;
+  --body-font: "Atkinson Hyperlegible", sans-serif;
+  --heading-font: "Roboto Serif Variable", sans-serif;
 
   /* ui */
   --bg-color: var(--light-grey);
