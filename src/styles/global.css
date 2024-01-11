@@ -1,0 +1,61 @@
+html {
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  background: var(--bg-color);
+  color: var(--text-color);
+}
+
+main {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: calc(var(--base) * 2.25);
+  font-size: var(--base-font-size);
+}
+
+svg {
+  display: block;
+  margin: 0 auto;
+}
+
+svg {
+  fill: currentColor;
+}
+
+.heading,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto Serif Variable", sans-serif;
+}
+
+a {
+  color: currentColor;
+  position: relative;
+  padding: 4px;
+  transition: all 150ms linear;
+  font-weight: 600;
+
+  &::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: var(--text-color);
+    transform-origin: right;
+    transition: all 100ms linear;
+    transform: scalex(0);
+    z-index: -1;
+  }
+
+  &:hover,
+  &:focus {
+    color: var(--bg-color);
+    &::after {
+      transform: none;
+    }
+  }
+}

@@ -1,0 +1,7 @@
+.dotted {
+  border: 2px dashed var(--secondary-text-color);
+}
+
+.secondary {
+  color: var(--secondary-text-color);
+}

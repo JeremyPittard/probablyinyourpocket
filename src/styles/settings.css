@@ -1,0 +1,16 @@
+:root {
+  /* spacing */
+  --base: 16px;
+  /* colours */
+  --light-grey: #f5f5f5;
+  --dark-grey: #333333;
+  --med-gey: #666666;
+
+  /* fonts */
+  --base-font-size: 18px;
+
+  /* ui */
+  --bg-color: var(--light-grey);
+  --text-color: var(--dark-grey);
+  --secondary-text-color: var(--med-gey);
+}
