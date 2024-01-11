@@ -16,6 +16,13 @@ svg {
   margin: 0 auto;
   fill: currentColor;
   max-width: 100%;
+
+  &:hover,
+  &:focus {
+    .boop {
+      animation: bounce 200ms infinite alternate;
+    }
+  }
 }
 
 .heading,
@@ -55,5 +62,12 @@ a {
     &::after {
       transform: none;
     }
+  }
+}
+
+/* bounce animation */
+@keyframes bounce {
+  to {
+    transform: translateY(-16px);
   }
 }
